@@ -3,20 +3,19 @@ import {
   CreatedAt,
   DeletedAt,
   Model,
-  PrimaryKey, Table,
+  PrimaryKey,
+	Table,
   UpdatedAt
 } from 'sequelize-typescript'
 
-@Table({ tableName: 'restaurants' })
-export class Restaurant extends Model<Restaurant> {
+@Table({ tableName: 'Availability' })
+export class Availability extends Model<Availability> {
   @PrimaryKey
   @Column({ autoIncrement: true })
   id: number
 
   @Column
   name: string
-
-
 
 	@Column
   asdf: string

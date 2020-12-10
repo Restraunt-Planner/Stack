@@ -1,2 +1,3 @@
-// export * from './Restaurants'
-export * from './Inventory'
+
+export * from './Availability'
+export * from './Reservations'

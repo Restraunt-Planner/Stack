@@ -2,6 +2,7 @@ require ('source-map-support/register')
 
 import { Sequelize } from 'sequelize-typescript'
 import { RouterServer } from './RouterServer'
+
 import * as models from './DB'
 
 ;(async () => {
