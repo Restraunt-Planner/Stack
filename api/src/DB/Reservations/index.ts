@@ -3,18 +3,22 @@ import {
   CreatedAt,
   DeletedAt,
   Model,
-  PrimaryKey, Table,
+  PrimaryKey,
+	Table,
   UpdatedAt
 } from 'sequelize-typescript'
 
-@Table({ tableName: 'restaurants' })
-export class Restaurant extends Model<Restaurant> {
+@Table({ tableName: 'Reservations' })
+export class Reservations extends Model<Reservations> {
   @PrimaryKey
   @Column({ autoIncrement: true })
   id: number
 
   @Column
   name: string
+
+	@Column
+  asdf: string
 
   @Column
   address: string

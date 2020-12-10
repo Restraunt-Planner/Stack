@@ -2,7 +2,7 @@
   <div id="app">
     <div id="nav">
       <router-link to="/reservations">Reservations</router-link> |
-      <router-link to="/inventory">Inventory</router-link>
+      <router-link to="/Availability">Availability</router-link>
     </div>
     <router-view />
   </div>

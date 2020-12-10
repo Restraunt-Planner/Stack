@@ -1,0 +1,108 @@
+Attaching to stack_db_1, stack_api_1, stack_frontend_1
+[36mapi_1       |[0m [2K[1G[1myarn run v1.22.5[22m
+[36mapi_1       |[0m [2K[1G[2m$ yarn tsc-watch --onSuccess "yarn node ./dist/index.js"[22m
+[33mdb_1        |[0m 
+[33mdb_1        |[0m PostgreSQL Database directory appears to contain a database; Skipping initialization
+[33mdb_1        |[0m 
+[33mdb_1        |[0m 2020-12-10 22:47:01.477 UTC [1] LOG:  starting PostgreSQL 12.5 on x86_64-pc-linux-musl, compiled by gcc (Alpine 9.3.0) 9.3.0, 64-bit
+[33mdb_1        |[0m 2020-12-10 22:47:01.477 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+[33mdb_1        |[0m 2020-12-10 22:47:01.477 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+[33mdb_1        |[0m 2020-12-10 22:47:01.479 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+[33mdb_1        |[0m 2020-12-10 22:47:01.500 UTC [20] LOG:  database system was shut down at 2020-12-10 22:46:52 UTC
+[33mdb_1        |[0m 2020-12-10 22:47:01.504 UTC [1] LOG:  database system is ready to accept connections
+[36mapi_1       |[0m [2K[1G[2m$ /app/node_modules/.bin/tsc-watch --onSuccess 'yarn node ./dist/index.js'[22m
+[32mfrontend_1  |[0m [2K[1G[1myarn run v1.22.5[22m
+[32mfrontend_1  |[0m [2K[1G[2m$ vue-cli-service serve[22m
+[32mfrontend_1  |[0m /bin/sh: vue-cli-service: not found
+[32mfrontend_1  |[0m [2K[1G[31merror[39m Command failed with exit code 127.
+[32mfrontend_1  |[0m [2K[1G[34minfo[39m Visit [1mhttps://yarnpkg.com/en/docs/cli/run[22m for documentation about this command.
+[36mapi_1       |[0m c10:47:04 PM - Starting compilation in watch mode...
+[36mapi_1       |[0m 
+[32mstack_frontend_1 exited with code 127
+[0m[36mapi_1       |[0m 
+[36mapi_1       |[0m 10:47:08 PM -[32m Found 0 errors. Watching for file changes.[39m
+[36mapi_1       |[0m Setting up controller: "TestController"
+[36mapi_1       |[0m {
+[36mapi_1       |[0m   npm_package_dependencies_prettier: [32m'^2.0.5'[39m,
+[36mapi_1       |[0m   npm_config_version_commit_hooks: [32m'true'[39m,
+[36mapi_1       |[0m   npm_config_user_agent: [32m'yarn/1.22.5 npm/? node/v12.20.0 linux x64'[39m,
+[36mapi_1       |[0m   NODE_VERSION: [32m'12.20.0'[39m,
+[36mapi_1       |[0m   npm_package_dependencies_tsc_watch: [32m'^4.2.8'[39m,
+[36mapi_1       |[0m   npm_package_dependencies__overnightjs_core: [32m'^1.7.4'[39m,
+[36mapi_1       |[0m   npm_config_bin_links: [32m'true'[39m,
+[36mapi_1       |[0m   npm_config_wrap_output: [32m''[39m,
+[36mapi_1       |[0m   HOSTNAME: [32m'ecc5d911eacd'[39m,
+[36mapi_1       |[0m   YARN_VERSION: [32m'1.22.5'[39m,
+[36mapi_1       |[0m   npm_node_execpath: [32m'/usr/local/bin/node'[39m,
+[36mapi_1       |[0m   npm_config_init_version: [32m'1.0.0'[39m,
+[36mapi_1       |[0m   SHLVL: [32m'7'[39m,
+[36mapi_1       |[0m   PORT: [32m'8080'[39m,
+[36mapi_1       |[0m   HOME: [32m'/root'[39m,
+[36mapi_1       |[0m   npm_config_init_license: [32m'MIT'[39m,
+[36mapi_1       |[0m   YARN_WRAP_OUTPUT: [32m'false'[39m,
+[36mapi_1       |[0m   npm_config_version_tag_prefix: [32m'v'[39m,
+[36mapi_1       |[0m   npm_package_scripts_dev: [32m'yarn tsc-watch --onSuccess "yarn node ./dist/index.js"'[39m,
+[36mapi_1       |[0m   npm_package_private: [32m'true'[39m,
+[36mapi_1       |[0m   npm_config_registry: [32m'https://registry.yarnpkg.com'[39m,
+[36mapi_1       |[0m   TERM: [32m'xterm'[39m,
+[36mapi_1       |[0m   npm_package_scripts_start: [32m'node ./dist/start.js'[39m,
+[36mapi_1       |[0m   npm_config_ignore_scripts: [32m''[39m,
+[36mapi_1       |[0m   npm_config_version: [32m'1.22.5'[39m,
+[36mapi_1       |[0m   PATH: [32m'/tmp/yarn--1607640423216-0.7034234272392836:/app/node_modules/.bin:/usr/local/share/.config/yarn/link/node_modules/.bin:/usr/local/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/bin/node_modules/npm/bin/node-gyp-bin:/tmp/yarn--1607640422640-0.2518234917702349:/app/node_modules/.bin:/usr/local/share/.config/yarn/link/node_modules/.bin:/usr/local/libexec/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/lib/node_modules/npm/bin/node-gyp-bin:/usr/local/bin/node_modules/npm/bin/node-gyp-bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'[39m,
+[36mapi_1       |[0m   NODE: [32m'/usr/local/bin/node'[39m,
+[36mapi_1       |[0m   npm_package_name: [32m'@wisely/test'[39m,
+[36mapi_1       |[0m   npm_package_dependencies_sequelize_typescript: [32m'^1.1.0'[39m,
+[36mapi_1       |[0m   DATABASE_CONNECTION_STRING: [32m'postgres://postgres:password@db/wisely_test'[39m,
+[36mapi_1       |[0m   npm_package_dependencies_winston: [32m'^3.2.1'[39m,
+[36mapi_1       |[0m   npm_lifecycle_script: [32m'yarn tsc-watch --onSuccess "yarn node ./dist/index.js"'[39m,
+[36mapi_1       |[0m   npm_package_dependencies__types_node: [32m'^14.0.10'[39m,
+[36mapi_1       |[0m   npm_package_main: [32m'./dist/index.js'[39m,
+[36mapi_1       |[0m   npm_package_dependencies_sequelize: [32m'^5.21.11'[39m,
+[36mapi_1       |[0m   npm_package_dependencies_body_parser: [32m'^1.19.0'[39m,
+[36mapi_1       |[0m   npm_package_scripts_test: [32m'yarn jest --runInBand'[39m,
+[36mapi_1       |[0m   npm_config_version_git_message: [32m'v%s'[39m,
+[36mapi_1       |[0m   npm_lifecycle_event: [32m'tsc-watch'[39m,
+[36mapi_1       |[0m   npm_package_dependencies_jest: [32m'^26.0.1'[39m,
+[36mapi_1       |[0m   npm_package_version: [32m'1.0.0'[39m,
+[36mapi_1       |[0m   npm_config_argv: [32m'{"remain":[],"cooked":["run","dev"],"original":["run","dev"]}'[39m,
+[36mapi_1       |[0m   npm_package_dependencies_cors: [32m'^2.8.5'[39m,
+[36mapi_1       |[0m   npm_package_scripts_build: [32m'rm -rf dist && yarn tsc'[39m,
+[36mapi_1       |[0m   npm_package_dependencies_source_map_support: [32m'^0.5.19'[39m,
+[36mapi_1       |[0m   npm_package_dependencies__types_express: [32m'^4.17.6'[39m,
+[36mapi_1       |[0m   npm_config_version_git_tag: [32m'true'[39m,
+[36mapi_1       |[0m   npm_config_version_git_sign: [32m''[39m,
+[36mapi_1       |[0m   npm_config_strict_ssl: [32m'true'[39m,
+[36mapi_1       |[0m   APP_ENV: [32m'development'[39m,
+[36mapi_1       |[0m   PWD: [32m'/app'[39m,
+[36mapi_1       |[0m   npm_execpath: [32m'/opt/yarn-v1.22.5/bin/yarn.js'[39m,
+[36mapi_1       |[0m   npm_config_save_prefix: [32m'^'[39m,
+[36mapi_1       |[0m   npm_config_ignore_optional: [32m''[39m,
+[36mapi_1       |[0m   NODE_ENV: [32m'development'[39m,
+[36mapi_1       |[0m   npm_package_dependencies_typescript: [32m'^3.9.5'[39m,
+[36mapi_1       |[0m   INIT_CWD: [32m'/app'[39m,
+[36mapi_1       |[0m   LOG: [32m'debug'[39m,
+[36mapi_1       |[0m   npm_package_dependencies_pg: [32m'^8.2.1'[39m,
+[36mapi_1       |[0m   npm_package_dependencies_morgan: [32m'^1.10.0'[39m,
+[36mapi_1       |[0m   NODE_OPTIONS: [32m''[39m
+[36mapi_1       |[0m }
+[36mapi_1       |[0m {"message":"Server listening on port: 8080","level":"info"}
+[36mapi_1       |[0m Executing (default): CREATE TABLE IF NOT EXISTS "Availability" ("id"  SERIAL , "name" VARCHAR(255), "asdf" VARCHAR(255), "address" VARCHAR(255), "created_at" TIMESTAMP WITH TIME ZONE NOT NULL, "updated_at" TIMESTAMP WITH TIME ZONE NOT NULL, "deleted_at" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("id"));
+[36mapi_1       |[0m Executing (default): SELECT pk.constraint_type as "Constraint",c.column_name as "Field", c.column_default as "Default",c.is_nullable as "Null", (CASE WHEN c.udt_name = 'hstore' THEN c.udt_name ELSE c.data_type END) || (CASE WHEN c.character_maximum_length IS NOT NULL THEN '(' || c.character_maximum_length || ')' ELSE '' END) as "Type", (SELECT array_agg(e.enumlabel) FROM pg_catalog.pg_type t JOIN pg_catalog.pg_enum e ON t.oid=e.enumtypid WHERE t.typname=c.udt_name) AS "special", (SELECT pgd.description FROM pg_catalog.pg_statio_all_tables AS st INNER JOIN pg_catalog.pg_description pgd on (pgd.objoid=st.relid) WHERE c.ordinal_position=pgd.objsubid AND c.table_name=st.relname) AS "Comment" FROM information_schema.columns c LEFT JOIN (SELECT tc.table_schema, tc.table_name, cu.column_name, tc.constraint_type FROM information_schema.TABLE_CONSTRAINTS tc JOIN information_schema.KEY_COLUMN_USAGE  cu ON tc.table_schema=cu.table_schema and tc.table_name=cu.table_name and tc.constraint_name=cu.constraint_name and tc.constraint_type='PRIMARY KEY') pk ON pk.table_schema=c.table_schema AND pk.table_name=c.table_name AND pk.column_name=c.column_name WHERE c.table_name = 'Availability' AND c.table_schema = 'public'
+[36mapi_1       |[0m Executing (default): SELECT DISTINCT tc.constraint_name as constraint_name, tc.constraint_schema as constraint_schema, tc.constraint_catalog as constraint_catalog, tc.table_name as table_name,tc.table_schema as table_schema,tc.table_catalog as table_catalog,kcu.column_name as column_name,ccu.table_schema  AS referenced_table_schema,ccu.table_catalog  AS referenced_table_catalog,ccu.table_name  AS referenced_table_name,ccu.column_name AS referenced_column_name FROM information_schema.table_constraints AS tc JOIN information_schema.key_column_usage AS kcu ON tc.constraint_name = kcu.constraint_name JOIN information_schema.constraint_column_usage AS ccu ON ccu.constraint_name = tc.constraint_name WHERE constraint_type = 'FOREIGN KEY' AND tc.table_name = 'Availability' AND tc.table_catalog = 'wisely_test'
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Availability" ALTER COLUMN "name" DROP NOT NULL;ALTER TABLE "Availability" ALTER COLUMN "name" DROP DEFAULT;ALTER TABLE "Availability" ALTER COLUMN "name" TYPE VARCHAR(255);
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Availability" ALTER COLUMN "asdf" DROP NOT NULL;ALTER TABLE "Availability" ALTER COLUMN "asdf" DROP DEFAULT;ALTER TABLE "Availability" ALTER COLUMN "asdf" TYPE VARCHAR(255);
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Availability" ALTER COLUMN "address" DROP NOT NULL;ALTER TABLE "Availability" ALTER COLUMN "address" DROP DEFAULT;ALTER TABLE "Availability" ALTER COLUMN "address" TYPE VARCHAR(255);
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Availability" ALTER COLUMN "created_at" SET NOT NULL;ALTER TABLE "Availability" ALTER COLUMN "created_at" DROP DEFAULT;ALTER TABLE "Availability" ALTER COLUMN "created_at" TYPE TIMESTAMP WITH TIME ZONE;
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Availability" ALTER COLUMN "updated_at" SET NOT NULL;ALTER TABLE "Availability" ALTER COLUMN "updated_at" DROP DEFAULT;ALTER TABLE "Availability" ALTER COLUMN "updated_at" TYPE TIMESTAMP WITH TIME ZONE;
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Availability" ALTER COLUMN "deleted_at" DROP NOT NULL;ALTER TABLE "Availability" ALTER COLUMN "deleted_at" DROP DEFAULT;ALTER TABLE "Availability" ALTER COLUMN "deleted_at" TYPE TIMESTAMP WITH TIME ZONE;
+[36mapi_1       |[0m Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Availability' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;
+[36mapi_1       |[0m Executing (default): CREATE TABLE IF NOT EXISTS "Reservations" ("id"  SERIAL , "name" VARCHAR(255), "asdf" VARCHAR(255), "address" VARCHAR(255), "created_at" TIMESTAMP WITH TIME ZONE NOT NULL, "updated_at" TIMESTAMP WITH TIME ZONE NOT NULL, "deleted_at" TIMESTAMP WITH TIME ZONE, PRIMARY KEY ("id"));
+[36mapi_1       |[0m Executing (default): SELECT pk.constraint_type as "Constraint",c.column_name as "Field", c.column_default as "Default",c.is_nullable as "Null", (CASE WHEN c.udt_name = 'hstore' THEN c.udt_name ELSE c.data_type END) || (CASE WHEN c.character_maximum_length IS NOT NULL THEN '(' || c.character_maximum_length || ')' ELSE '' END) as "Type", (SELECT array_agg(e.enumlabel) FROM pg_catalog.pg_type t JOIN pg_catalog.pg_enum e ON t.oid=e.enumtypid WHERE t.typname=c.udt_name) AS "special", (SELECT pgd.description FROM pg_catalog.pg_statio_all_tables AS st INNER JOIN pg_catalog.pg_description pgd on (pgd.objoid=st.relid) WHERE c.ordinal_position=pgd.objsubid AND c.table_name=st.relname) AS "Comment" FROM information_schema.columns c LEFT JOIN (SELECT tc.table_schema, tc.table_name, cu.column_name, tc.constraint_type FROM information_schema.TABLE_CONSTRAINTS tc JOIN information_schema.KEY_COLUMN_USAGE  cu ON tc.table_schema=cu.table_schema and tc.table_name=cu.table_name and tc.constraint_name=cu.constraint_name and tc.constraint_type='PRIMARY KEY') pk ON pk.table_schema=c.table_schema AND pk.table_name=c.table_name AND pk.column_name=c.column_name WHERE c.table_name = 'Reservations' AND c.table_schema = 'public'
+[36mapi_1       |[0m Executing (default): SELECT DISTINCT tc.constraint_name as constraint_name, tc.constraint_schema as constraint_schema, tc.constraint_catalog as constraint_catalog, tc.table_name as table_name,tc.table_schema as table_schema,tc.table_catalog as table_catalog,kcu.column_name as column_name,ccu.table_schema  AS referenced_table_schema,ccu.table_catalog  AS referenced_table_catalog,ccu.table_name  AS referenced_table_name,ccu.column_name AS referenced_column_name FROM information_schema.table_constraints AS tc JOIN information_schema.key_column_usage AS kcu ON tc.constraint_name = kcu.constraint_name JOIN information_schema.constraint_column_usage AS ccu ON ccu.constraint_name = tc.constraint_name WHERE constraint_type = 'FOREIGN KEY' AND tc.table_name = 'Reservations' AND tc.table_catalog = 'wisely_test'
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Reservations" ALTER COLUMN "name" DROP NOT NULL;ALTER TABLE "Reservations" ALTER COLUMN "name" DROP DEFAULT;ALTER TABLE "Reservations" ALTER COLUMN "name" TYPE VARCHAR(255);
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Reservations" ALTER COLUMN "asdf" DROP NOT NULL;ALTER TABLE "Reservations" ALTER COLUMN "asdf" DROP DEFAULT;ALTER TABLE "Reservations" ALTER COLUMN "asdf" TYPE VARCHAR(255);
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Reservations" ALTER COLUMN "address" DROP NOT NULL;ALTER TABLE "Reservations" ALTER COLUMN "address" DROP DEFAULT;ALTER TABLE "Reservations" ALTER COLUMN "address" TYPE VARCHAR(255);
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Reservations" ALTER COLUMN "created_at" SET NOT NULL;ALTER TABLE "Reservations" ALTER COLUMN "created_at" DROP DEFAULT;ALTER TABLE "Reservations" ALTER COLUMN "created_at" TYPE TIMESTAMP WITH TIME ZONE;
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Reservations" ALTER COLUMN "updated_at" SET NOT NULL;ALTER TABLE "Reservations" ALTER COLUMN "updated_at" DROP DEFAULT;ALTER TABLE "Reservations" ALTER COLUMN "updated_at" TYPE TIMESTAMP WITH TIME ZONE;
+[36mapi_1       |[0m Executing (default): ALTER TABLE "Reservations" ALTER COLUMN "deleted_at" DROP NOT NULL;ALTER TABLE "Reservations" ALTER COLUMN "deleted_at" DROP DEFAULT;ALTER TABLE "Reservations" ALTER COLUMN "deleted_at" TYPE TIMESTAMP WITH TIME ZONE;
+[36mapi_1       |[0m Executing (default): SELECT i.relname AS name, ix.indisprimary AS primary, ix.indisunique AS unique, ix.indkey AS indkey, array_agg(a.attnum) as column_indexes, array_agg(a.attname) AS column_names, pg_get_indexdef(ix.indexrelid) AS definition FROM pg_class t, pg_class i, pg_index ix, pg_attribute a WHERE t.oid = ix.indrelid AND i.oid = ix.indexrelid AND a.attrelid = t.oid AND t.relkind = 'r' and t.relname = 'Reservations' GROUP BY i.relname, ix.indexrelid, ix.indisprimary, ix.indisunique, ix.indkey ORDER BY i.relname;

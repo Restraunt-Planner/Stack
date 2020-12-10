@@ -7,21 +7,21 @@ Vue.use(VueRouter)
 const routes: Array<RouteConfig> = [
   {
     path: '/',
-    redirect: 'reservations',
+    redirect: 'Reservations',
   },
   {
-    path: '/reservations',
+    path: '/Reservations',
     name: 'Reservations',
     component: Reservations
   },
   {
-    path: '/inventory',
-    name: 'Inventory',
+    path: '/Availability',
+    name: 'Availability',
     // route level code-splitting
     // this generates a separate chunk (about.[hash].js) for this route
     // which is lazy-loaded when the route is visited.
     component: () =>
-      import(/* webpackChunkName: "about" */ '../views/Inventory.vue')
+      import(/* webpackChunkName: "about" */ '../views/Availability.vue')
   }
 ]
 
