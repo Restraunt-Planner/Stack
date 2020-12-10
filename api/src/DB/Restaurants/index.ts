@@ -16,6 +16,11 @@ export class Restaurant extends Model<Restaurant> {
   @Column
   name: string
 
+
+
+	@Column
+  asdf: string
+
   @Column
   address: string
 

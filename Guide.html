@@ -32,3 +32,26 @@
 
 <h2>Open</h2>
 (root) docker-compose up
+
+
+<h2>PG</h2>
+(root) apt install postgresql postgresql-contrib
+(root) psql -h "postgres" -U "$POSTGRES_USER" -d "$POSTGRES_DB" -c "SELECT * FROM 'restaurants'"
+(root) psql -h "postgres" -U postgres -d wisely_test -c "SELECT * FROM 'restaurants'"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--  -->
